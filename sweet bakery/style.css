@@ -1,0 +1,37 @@
+
+.header{
+  justify-content: space-between !important;
+ display: flex;
+   
+  
+   /* justify-content: space-between; */
+     margin: 10px;
+     align-items: center;
+  
+    background-color: transparent;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.fonts{
+    display: flex;
+}
+button{
+    height: 40px;
+    line-height: 40px;
+    margin: 0 9px;
+    font-weight: 500;
+    background-color: #5fcac7 !important;
+    border-color: #5fcac7 !important;
+    color: #ffffff !important;
+    border-radius: 50px;
+    margin-top: 45%;
+    width: 100%;
+}
+.middle>div{
+    filter: blur(2px);
+}
