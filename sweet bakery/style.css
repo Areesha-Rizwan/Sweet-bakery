@@ -1,26 +1,34 @@
 
 .header{
-  justify-content: space-between !important;
+    font-family: DM Sans;
+    color: #202020;
+    font-weight: 400;
  display: flex;
-   
-  
-   /* justify-content: space-between; */
-     margin: 10px;
+ word-spacing: 1.5rem;
+ font-weight: normal;
+     /* margin: 10px; */
      align-items: center;
-  
+   font-size: large;
     background-color: transparent;
 }
+
 .upper{
     display: flex;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-family: DM Sans;
+    line-height: 1.5;
+    padding-left: 12%;
+    padding-right: 12%;
     justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
-
+    color: #202020;
+    font-weight: 400
 }
 .fonts{
     display: flex;
+   
 }
-button{
+.pehla{
     height: 40px;
     line-height: 40px;
     margin: 0 9px;
@@ -31,7 +39,99 @@ button{
     border-radius: 50px;
     margin-top: 45%;
     width: 100%;
+    border: 0;
+    margin-bottom: 55px;
 }
-.middle>div{
-    filter: blur(2px);
+.middle{
+     margin-top: 30px;
+    position: relative;
+    
+}
+.first{
+    position: absolute;
+    top: 8px;
+    left: 40px;
+    margin-bottom: 0;
+    margin-top: 110px ;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 4.5rem;
+    line-height: 86px;
+    color: white;
+    overflow: hidden;
+    box-sizing: border-box;
+    word-wrap: break-word;
+
+}
+.one{
+    width: 100%;
+    filter: blur(3px);
+
+}
+/* .second{
+    line-height: 86px;
+    color: white;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: absolute;
+    top: 150px;
+    align-items: center;
+    font-size: 3rem;
+    justify-content: center; */
+
+.container{
+    color: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: absolute;
+  bottom: 400px;
+  left: 16px;
+  font-size: 30px;
+  margin-left: 40px;
+}
+  
+button{
+    font-weight: 500;
+    background-color: #5fcac7 !important;
+    border-color: #5fcac7 !important;
+    color: #ffffff !important;
+    border-radius: 50px;
+    width: 30%;
+    height: 55px;
+    border: 0;
+ margin-top: 50%;  
+ margin-left: 70px;
+ font-size: large;
+}
+
+.head2{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 6%;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #202020;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 10%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 10%;
+ 
+   
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 10%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 13%;
+
+}
+.middle2{
+    background-color: rgb(226, 226, 226);
 }
